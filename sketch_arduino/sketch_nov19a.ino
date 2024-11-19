@@ -9,7 +9,6 @@ void setup() {
 
 void loop() {
   // Solicita aos sensores para obter a leitura da temperatura
-  sensors.requestTemperatures();
 
   int luminosidade = analogRead(A0);
   Serial.print("Luminosidade: ");
