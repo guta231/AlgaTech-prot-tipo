@@ -11,7 +11,6 @@ void loop() {
   // Solicita aos sensores para obter a leitura da temperatura
 
   int luminosidade = analogRead(A0);
-  Serial.print("Luminosidade: ");
   Serial.println(luminosidade);
   
   // Espera 1 segundo antes de ler novamente
