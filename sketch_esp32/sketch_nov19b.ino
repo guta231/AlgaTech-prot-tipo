@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 
 // Credenciais Wi-Fi e IP do broker MQTT
-const char* ssid = "A34 de Gustavo";
-const char* password = "gustavogostoso";
+const char* ssid = "";
+const char* password = "";
 const char* IP_MQTT = "20.206.203.145";
 
 // Inicialização dos objetos WiFi e MQTT
