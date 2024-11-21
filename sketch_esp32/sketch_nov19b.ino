@@ -13,8 +13,8 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
 // Credenciais Wi-Fi e IP do broker MQTT
-const char* ssid = "CLARO_2G5B97A8";
-const char* password = "Marcilene18";
+const char* ssid = "";
+const char* password = "";
 const char* IP_MQTT = "20.206.203.145";
 
 // Inicialização dos objetos WiFi e MQTT
@@ -52,7 +52,7 @@ void loop() {
       Serial.println(" Conectado!");
     } else {
       Serial.println(" Falha na conexão. Tentando novamente...");
-      delay(5000); // Aguarda 5 segundos antes de tentar novamente
+      delay(5000);
       return;
     }
   }
@@ -71,8 +71,8 @@ void loop() {
   }
 
   // Atualiza a leitura de temperatura
-  sensors.requestTemperatures(); // Solicita uma nova leitura
-  float tempC = sensors.getTempCByIndex(0); // Obtém a temperatura em °C
+  sensors.requestTemperatures(); 
+  float tempC = sensors.getTempCByIndex(0); // Obtém a temperatura
 
   if (tempC != DEVICE_DISCONNECTED_C) { // Verifica se o sensor está conectado
     Serial.print("Temperatura: ");
