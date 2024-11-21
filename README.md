@@ -54,7 +54,7 @@ O objetivo do **AlgaTech** é criar um sistema sustentável e automatizado que:
 - Promova o uso das microalgas como recurso energético renovável em aplicações como biocombustíveis e produtos sustentáveis.  
 
 ### Dashboard no Node-RED  
-![Dashboard Node-RED](https://via.placeholder.com/600x400.png?text=Exemplo+do+Dashboard)  
+![Dashboard Node-RED](https://github.com/guta231/AlgaTech-prot-tipo/blob/main/Captura%20de%20tela%202024-11-21%20170131.png)  
 
 [Clique aqui para acessar o Node-RED](http://20.206.203.145:1880/ui)  
 
